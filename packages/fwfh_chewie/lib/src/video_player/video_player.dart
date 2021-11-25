@@ -130,6 +130,7 @@ class _VideoPlayerState extends State<VideoPlayer> {
         placeholder: placeholder,
         showControls: widget.controls,
         videoPlayerController: vpc,
+        deviceOrientationsAfterFullScreen: [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]
       ),
     );
   }
